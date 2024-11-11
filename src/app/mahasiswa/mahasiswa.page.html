@@ -17,7 +17,7 @@
         {{item.nama}}
         <p>{{item.jurusan}}</p>
       </ion-label>
-      <ion-button color="danger" slot="end" (click)="hapusMahasiswa(item.id)">Hapus</ion-button>
+      <ion-button color="danger" slot="end" (click)="alertHapusMhs(item.id)">Hapus</ion-button>
       <ion-button expand="block" (click)="openModalEdit(true,item.id)">Edit</ion-button>
     </ion-item>
   </ion-card>
